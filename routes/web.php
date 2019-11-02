@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+include __DIR__.'/api.php';
+include __DIR__.'/channels.php';
+include __DIR__.'/console.php';
